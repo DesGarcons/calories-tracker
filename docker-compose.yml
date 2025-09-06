@@ -1,0 +1,18 @@
+version: '3.9'
+services:
+  postgres:
+    container_name: postgres
+    image: postgres:15.5-alpine
+    volumes:
+      - pg-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:?database user not set}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?database password not set}
+      POSTGRES_DB: ${POSTGRES_DB:?database name not set}
+    ports:
+      - 5432:5432
+
+volumes:
+  pg-data:
+  cache:
+    driver: local
