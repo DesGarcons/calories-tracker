@@ -1,6 +1,6 @@
 package telegram
 
-import "ccb/internal/common/bot"
+import "calories-tracker/internal/common/bot"
 
 type TelegramBot struct {
 	*bot.Bot

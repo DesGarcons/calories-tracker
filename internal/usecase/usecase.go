@@ -1,7 +1,7 @@
 package usecase
 
 import (
-	"ccb/internal/model"
+	"calories-tracker/internal/model"
 	"context"
 )
 

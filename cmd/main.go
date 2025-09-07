@@ -1,8 +1,8 @@
 package main
 
 import (
-	"ccb/config"
-	app "ccb/internal/app"
+	"calories-tracker/config"
+	app "calories-tracker/internal/app"
 	"context"
 	"flag"
 	"fmt"

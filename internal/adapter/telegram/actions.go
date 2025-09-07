@@ -1,7 +1,7 @@
 package telegram
 
 import (
-	"ccb/internal/model"
+	"calories-tracker/internal/model"
 	"context"
 	"fmt"
 	"log/slog"

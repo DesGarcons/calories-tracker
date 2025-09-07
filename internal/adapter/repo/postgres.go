@@ -1,8 +1,8 @@
 package repo
 
 import (
-	"ccb/internal/model"
-	"ccb/pkg/postgres"
+	"calories-tracker/internal/model"
+	"calories-tracker/pkg/postgres"
 	"context"
 	"fmt"
 

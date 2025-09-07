@@ -1,7 +1,7 @@
 package authorizer
 
 import (
-	"ccb/internal/model"
+	"calories-tracker/internal/model"
 	"fmt"
 
 	"context"

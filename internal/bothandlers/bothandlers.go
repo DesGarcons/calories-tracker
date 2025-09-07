@@ -1,8 +1,8 @@
 package bothandlers
 
 import (
-	"ccb/internal/common/bot"
-	"ccb/internal/model"
+	"calories-tracker/internal/common/bot"
+	"calories-tracker/internal/model"
 	"context"
 	"fmt"
 	"log/slog"
