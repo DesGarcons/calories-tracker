@@ -1,4 +1,4 @@
-#calories-tracker
+# calories-tracker
 
 ## Create env file with copy env.example
 
