@@ -1,8 +1,9 @@
 # calories-tracker
 
-Create env file with copy env.example
+## Create env file with copy env.example
 
-Start services
+## Start services
 docker compose up -d
 
-Run cmd/main.go
+## Run with flags 
+cmd/main.go --app --f -- ./. env
